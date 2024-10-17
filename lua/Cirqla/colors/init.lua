@@ -1,6 +1,6 @@
 local C = require("Cirqla.colors.colors")
 
-function C.extended_palette()
+function C.extended_palette(options)
 	-- Backgrounds
 	C.bg = C["000000"]         -- Main background
 	C.bg_dark = C["000001"]    -- Darker background for inactive areas
