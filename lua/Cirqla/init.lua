@@ -16,7 +16,7 @@ function M.load(opts)
 	if opts then C.setup(opts) end
 
 	-- Apply theme with updated options
-	require('juicy.colors').extend_palette(C.options)
+	require('Cirqla.colors').extend_palette(C.options)
 
 	-- Now G.get_groups() can access updated options from C.options
 	U.highlight(G.get_groups())
