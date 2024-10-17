@@ -25,7 +25,7 @@ end
 -- Add command to nvim
 vim.api.nvim_create_user_command('Cirqla', function(args)
 	M.load(args)
-	vim.cmd('colorscheme cirqla')
+	vim.cmd('colorscheme Cirqla')
 end, {
 	nargs = 1,
 })
