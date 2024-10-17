@@ -1,10 +1,11 @@
 local C = require("Cirqla.colors")
 local U = require("Cirqla.utils")
+local O = require("Cirqla.config").options
 
 return {
 	Comment = { fg = C["000110"], italic = O.italic_comments }, -- Example for comments, change to fit your needs
 	ColorColumn = { bg = C.bg_visual },
-	Conceal = { fg = C["000010"] },                             -- Change to appropriate QR code color
+	Conceal = { fg = C["000010"] },                          -- Change to appropriate QR code color
 
 	Cursor = { fg = C.bg, bg = C.fg },
 	lCursor = { fg = C.bg },
@@ -49,7 +50,7 @@ return {
 
 	Pmenu = { bg = C.bg_popup, fg = C.fg_popup },
 	PmenuSel = { bg = C.bg_selected },
-	PmenuSbar = { bg = C["000001"] },                    -- Change as needed
+	PmenuSbar = { bg = C["000001"] },                 -- Change as needed
 	PmenuThumb = { bg = C["000001"], fg = C["000001"] }, -- Change as needed
 
 	Question = { fg = C.info },

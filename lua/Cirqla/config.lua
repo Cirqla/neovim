@@ -4,6 +4,11 @@ local M = {}
 local defaults = {
 	italic_comments = true,
 	transparent_background = false,
+	cursorline = {
+		blend = 0.78,
+		bold = true,
+		bold_number = true
+	},
 	override = {},
 }
 
