@@ -4,7 +4,7 @@ local C = require 'Cirqla.config'
 local M = {}
 
 M.integrations = {
-	'treesitter',
+	'gitsigns',
 }
 
 M.native = {
