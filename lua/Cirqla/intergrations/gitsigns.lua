@@ -1,4 +1,4 @@
-local C = require("Cirqla.C")
+local C = require("Cirqla.colors")
 
 return {
 	-- Git Signs for added, changed, and deleted lines
