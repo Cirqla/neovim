@@ -18,17 +18,17 @@ return {
 	GitSignsAddInline = {
 		fg = C["001010"],
 		bg = C["000001"],
-		style = { "bold" },
+		bold = true,
 	}, -- Inline for added lines
 	GitSignsDeleteInline = {
 		fg = C["000111"],
 		bg = C["000001"],
-		style = { "bold" },
+		bold = true,
 	}, -- Inline for deleted lines
 	GitSignsChangeInline = {
 		fg = C["001101"],
 		bg = C["000001"],
-		style = { "bold" },
+		bold = true,
 	}, -- Inline for changed lines
 
 	-- Virtual line for deleted lines in GitSigns
